@@ -3,11 +3,12 @@ import Aux from './../../hoc/Auxil/Auxil';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import Home from '../../containers/Home/Home';
 import Resources from '../../containers/Resources/Resources';
+import NavBar from './../UI/NavBar/NavBar';
 class Layout extends Component {
   render() {
     return (
       <Aux>
-        <h1>Navabar here</h1>
+        <NavBar />
         <div>
           <Switch>
             <Route path="/" exact component={Home} />

@@ -1,0 +1,23 @@
+.Jumbo {
+  background-image: url('../../assets/Images/academicResources.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.images1 {
+  height: 45%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li a {
+  color: rgb(109, 199, 109);
+  padding: 0px;
+}
