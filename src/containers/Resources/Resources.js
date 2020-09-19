@@ -5,14 +5,11 @@ import './Resources.css';
 import './../Home/Home.css';
 
 import SMS from '../../assets/Images/SMS.jpg';
-import SBS from '../../assets/Images/SBS.jpg';
-import SEOC from '../../assets/Images/SEOC.jpg';
+
 import SIF from '../../assets/Images/SIF.jpg';
 import SMMS from '../../assets/Images/SMMS.jpg';
-import School_Humanities from '../../assets/Images/School_Humanities.jpg';
+
 import SES from '../../assets/Images/ses.jpg';
-import Chemistry from '../../assets/Images/chemistry.jpg';
-import Physics from '../../assets/Images/physics.jpg';
 
 class Resources extends Component {
   render() {
