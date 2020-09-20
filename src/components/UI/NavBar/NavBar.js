@@ -6,11 +6,12 @@ class NavBar extends Component {
   componentDidMount() {
     const script = document.createElement('script');
 
-    script.src = './navScript.js';
+    script.src = "navScript.js";
     script.async = true;
 
-    document.body.appendChild(script);
+    document.body.appendChild(script)
   }
+  
   render() {
     return (
       <Aux>
@@ -48,7 +49,7 @@ class NavBar extends Component {
               </div>
             </div>
           </nav>
-          <script src="./navScript.js" />
+          <script src="navScript.js" />
         </div>
       </Aux>
     );

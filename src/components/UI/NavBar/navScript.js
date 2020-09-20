@@ -1,3 +1,4 @@
+console.log('called');
 const navToggleBtn = document.querySelector('.navbar-nav-toggle');
 const navbarNav = document.querySelector('.navbar-nav');
 const subMenuToggleBtn = document.querySelectorAll(
