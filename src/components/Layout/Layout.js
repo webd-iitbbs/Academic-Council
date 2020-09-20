@@ -4,6 +4,7 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 import Home from '../../containers/Home/Home';
 import Resources from '../../containers/Resources/Resources';
 import NavBar from './../UI/NavBar/NavBar';
+import Footer from './../UI/Footer/Footer';
 class Layout extends Component {
   render() {
     return (
@@ -15,7 +16,7 @@ class Layout extends Component {
             <Route path="/resources" exact component={Resources} />
           </Switch>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </Aux>
     );
   }

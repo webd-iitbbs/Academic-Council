@@ -62,6 +62,10 @@
   display: flex;
   flex-flow: row;
 }
+.mainHeading {
+  font-size: 45px;
+  font-weight: bolder;
+}
 @media (max-width: 500px) {
   .cards {
     position: relative;
@@ -70,5 +74,8 @@
   }
   .card {
     width: 23rem;
+  }
+  .mainHeading {
+    font-size: 35px;
   }
 }

@@ -3,16 +3,35 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
+  height: 100%;
   margin: 0;
   font-family: 'Roboto';
 }
 * {
   box-sizing: border-box;
 }
+.page-wrapper {
+  min-height: 100%;
+  height: 200px;
+}
+.head {
+  height: auto;
+  background-color: #fffafa;
+}
+.box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name img {
+  width: 470px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .container {
   max-width: 1170px;
   margin: auto;
-  /*background-color: red;*/
 }
 .row {
   display: flex;
@@ -159,21 +178,11 @@ body {
   background-color: #8b8989;
   color: #ffffff;
 }
-.home {
-  height: 100vh;
-  /* background-image: url('home.jpg');
-  background-size: cover;
-  background-position: center; */
-}
-
-/*Responsive Navbar*/
-
 @media (max-width: 991px) {
   .navbar .navbar-nav ul > li {
     margin: 0 15px;
   }
 }
-
 @media (max-width: 767px) {
   .navbar {
     padding: 15px;
@@ -219,5 +228,84 @@ body {
   .navbar .navbar-nav ul > li > .sub-menu > li > a {
     color: #ffffff;
     padding: 14px 20px 12px 40px;
+  }
+}
+.footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 400px;
+  position: relative;
+}
+.footer .footer-content {
+  border: 1px solid red;
+  height: 350px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  border: 1px solid white;
+  padding: 25px;
+}
+.footer .footer-content h1,
+.footer .footer-content h2 {
+  color: white;
+}
+.footer .footer-content .about h1 span {
+  color: #05f7ff;
+}
+
+.footer .footer-content .about .social a {
+  color: tomato;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+}
+.footer .footer-content .about .social a:hover {
+  color: white;
+}
+.footer .footer-content .links ul a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.footer .footer-content .links ul a:hover {
+  color: white;
+  margin-left: 15px;
+  transition: all 0.1s;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  color: white;
+}
+li:hover {
+  color: #686868;
+}
+.footer .footer-bottom {
+  background: #343a40;
+  color: #686868;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+@media (max-width: 500px) {
+  .footer .footer-content {
+    flex-direction: column;
+  }
+  .footer .footer-bottom {
+    display: none;
   }
 }

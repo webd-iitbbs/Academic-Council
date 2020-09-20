@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 // import { Navbar } from 'react-bootstrap';
 import './Navbar.css';
 import Aux from './../../../hoc/Auxil/Auxil';
+import ScriptTag from 'react-script-tag';
 class NavBar extends Component {
   componentDidMount() {
     const script = document.createElement('script');
 
-    script.src = './navScript.js';
+    script.src = 'srccomponentsUINavBar\navScript.js';
     script.async = true;
 
     document.body.appendChild(script);
@@ -18,10 +19,18 @@ class NavBar extends Component {
           <title>Responisve DropDown Navbar</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="stylesheet" type="text/css" href="style.css" />
+          <ScriptTag
+            isHydrating={true}
+            type="text/javascript"
+            src="./navScript.js"
+          />
           <nav className="navbar">
             <div className="container">
               <div className="row justify-content-between align-items-center">
-                <button className="navbar-nav-toggle">
+                <button
+                  className="navbar-nav-toggle"
+                  onClick={(event) => console.log('hrlll')}
+                >
                   <span />
                 </button>
                 <div className="navbar-nav">
@@ -48,7 +57,6 @@ class NavBar extends Component {
               </div>
             </div>
           </nav>
-          <script src="./navScript.js" />
         </div>
       </Aux>
     );

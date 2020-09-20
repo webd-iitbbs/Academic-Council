@@ -24,7 +24,7 @@ class Home extends Component {
         <Jumbotron style={{ marginBottom: '0rem' }} className="Jumbotron">
           <Container>
             <div className="text">
-              <h2 style={{ fontSize: '45px' }}>IIT BHUBANESWAR</h2>
+              <h2 className="mainHeading">IIT BHUBANESWAR</h2>
               <p clasName="body">
                 The Academics and Career Council of the Indian Institute of
                 Technology, Bhubaneswar is a council directly placed under the
