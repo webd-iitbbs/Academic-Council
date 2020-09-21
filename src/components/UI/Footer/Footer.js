@@ -1,5 +1,5 @@
 import React from 'react';
-import './../NavBar/Navbar.css';
+import './Footer.css';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { ImYoutube } from 'react-icons/im';
