@@ -52,18 +52,18 @@ class Home extends Component {
         </div>
         <div className="section">
           <h1 className="heading"> Objective</h1>
-          <div className="cards">
+          <div className="cards" style={{ margin: '20px' }}>
             <Card className="card">
               <Card.Img
                 variant="top"
                 src={AcademicResource}
                 className="images"
               />
-              <Card.Body>
+              <Card.Body className="cardBody">
                 <Card.Title
                   style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
                 >
-                  Academic Resources
+                  Resources
                 </Card.Title>
                 <Card.Text>
                   The UG/PG Academics Wing takes up the responsibility of the
@@ -71,17 +71,18 @@ class Home extends Component {
                   acts as an interface between the institute policy makers and
                   the students on matters related to academia.
                 </Card.Text>
-                <Button
-                  variant="info"
-                  onClick={() => this.redirectTo('resources')}
-                >
-                  Learn more
-                </Button>
               </Card.Body>
+              <Button
+                variant="info"
+                className="button"
+                onClick={() => this.redirectTo('resources')}
+              >
+                Learn more
+              </Button>
             </Card>
             <Card className="card">
               <Card.Img variant="top" src={SES} className="images" />
-              <Card.Body>
+              <Card.Body className="cardBody">
                 <Card.Title
                   style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
                 >
@@ -93,12 +94,14 @@ class Home extends Component {
                   acts as an interface between the institute policy makers and
                   the students on matters related to academia.
                 </Card.Text>
-                <Button variant="info">Learn more</Button>
               </Card.Body>
+              <Button variant="info" className="button">
+                Learn more
+              </Button>
             </Card>
             <Card className="card">
               <Card.Img variant="top" src={AlumniPicture} className="images" />
-              <Card.Body>
+              <Card.Body className="cardBody">
                 <Card.Title
                   style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
                 >
@@ -110,13 +113,15 @@ class Home extends Component {
                   acts as an interface between the institute policy makers and
                   the students on matters related to academia.
                 </Card.Text>
-                <Button variant="info">Learn more</Button>
               </Card.Body>
+              <Button variant="info" className="button">
+                Learn more
+              </Button>
             </Card>
 
             <Card className="card">
               <Card.Img variant="top" src={TeamPicture} className="images" />
-              <Card.Body>
+              <Card.Body className="cardBody">
                 <Card.Title
                   style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
                 >
@@ -128,8 +133,10 @@ class Home extends Component {
                   acts as an interface between the institute policy makers and
                   the students on matters related to academia.
                 </Card.Text>
-                <Button variant="info">Learn more</Button>
               </Card.Body>
+              <Button variant="info" className="button">
+                Learn more
+              </Button>
             </Card>
           </div>
         </div>

@@ -3,13 +3,15 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import Aux from './../../../hoc/Auxil/Auxil';
 import ScriptTag from 'react-script-tag';
+import Logo from './logo.png';
+import iitbbs_name from './iitbbs_name.png';
+
 class NavBar extends Component {
   componentDidMount() {
     const script = document.createElement('script');
-
-    script.src = 'navScript.js';
+    script.type = 'text/javascript';
+    script.src = './navScript.js';
     script.async = true;
-
     document.body.appendChild(script);
   }
 
@@ -23,15 +25,22 @@ class NavBar extends Component {
           <ScriptTag
             isHydrating={true}
             type="text/javascript"
-            src="./navScript.js"
+            src="navScript.js"
           />
+          {/* <div className="head">
+            <div className="box">
+              <img src={Logo} alt="logo" />
+            </div>
+            <div className="name">
+              <img src={iitbbs_name} alt="iitbbs" />
+            </div>
+          </div> */}
           <nav className="navbar">
             <div className="container">
               <div className="row justify-content-between align-items-center">
-                <button
-                  className="navbar-nav-toggle"
-                  onClick={(event) => console.log('hrlll')}
-                >
+                <img src={Logo} alt="iitbs" />
+                <h3>IIT Bhubneswar</h3>
+                <button className="navbar-nav-toggle">
                   <span />
                 </button>
                 <div className="navbar-nav">

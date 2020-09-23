@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section about">
             <h1 className="logo-text">
-              <span>IITB</span>hubneswar
+              <span>IIT </span>Bhubneswar
             </h1>
 
             <p>
@@ -24,16 +24,34 @@ const Footer = () => {
             </p>
             <br />
             <div className="social">
-              <a href="https://www.facebook.com/iitbbs/">
+              <a
+                href="https://www.facebook.com/iitbbs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebookSquare size="30px" />
               </a>
-              <a href="https://www.instagram.com/iitbhubaneswar/">
+              <a
+                href="https://www.instagram.com/iitbhubaneswar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillInstagram size="30px" />
               </a>
-              <a href="https://twitter.com/iitbbs">
+              <a
+                href="https://twitter.com/iitbbs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiOutlineTwitter size="30px" />
               </a>
-              <a href="https://www.youtube.com/channel/UC_zUJNlSZjHyg1P_KPrY0Zg">
+              <a
+                href="https://www.youtube.com/channel/UC_zUJNlSZjHyg1P_KPrY0Zg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <ImYoutube size="30px" />
               </a>
             </div>
@@ -42,15 +60,27 @@ const Footer = () => {
             <h2>Quick links</h2>
             <ul>
               <br />
-              <a href="http://iitbbs.ac.in/">
+              <a
+                href="http://iitbbs.ac.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <li>IIT Bhubneswar</li>
               </a>
               <br />
-              <a href="https://gymkhana.iitbbs.ac.in/">
+              <a
+                href="https://gymkhana.iitbbs.ac.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <li>Students Gymkhana</li>
               </a>
               <br />
-              <a href="https://www.iitbbs.ac.in/cdc/index.php">
+              <a
+                href="https://www.iitbbs.ac.in/cdc/index.php"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <li>Career Development Cell</li>
               </a>
               <br />

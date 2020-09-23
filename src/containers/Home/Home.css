@@ -33,6 +33,7 @@
   font-weight: 300;
   line-height: 1.5;
   color: #151616;
+  margin: 10px;
 }
 
 .heading {
@@ -46,7 +47,8 @@
 
 .card {
   width: 22rem;
-  margin: 40px 10px;
+  margin: 10px;
+  margin-top: 0px;
 }
 
 .images {
@@ -54,7 +56,6 @@
 }
 .section {
   padding-top: 30px;
-
   text-align: center;
 }
 
@@ -66,14 +67,24 @@
   font-size: 45px;
   font-weight: bolder;
 }
-@media (max-width: 500px) {
+.button {
+  position: relative;
+  align-self: center;
+  width: 120px;
+  margin-bottom: 30px;
+}
+.cardBody {
+  margin-bottom: 40px;
+}
+@media (max-width: 800px) {
   .cards {
     position: relative;
     align-items: center;
     flex-flow: column;
   }
   .card {
-    width: 23rem;
+    width: 105%;
+    margin-bottom: 20px;
   }
   .mainHeading {
     font-size: 35px;

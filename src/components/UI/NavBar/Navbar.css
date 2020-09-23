@@ -38,8 +38,8 @@ body {
   flex-wrap: wrap;
 }
 .navbar {
+  height: 120px;
   background-color: #333333;
-  padding: 0 15px;
 }
 .justify-content-between {
   justify-content: space-between;
@@ -47,6 +47,7 @@ body {
 .align-items-center {
   align-items: center;
 }
+
 .navbar .navbar-nav-toggle {
   height: 32px;
   width: 40px;
@@ -54,9 +55,10 @@ body {
   border: 1px solid #ffffff;
   border-radius: 3px;
   display: none;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  cursor: pointer;
 }
 .navbar .navbar-nav-toggle:focus {
   outline: none;
@@ -117,7 +119,7 @@ body {
   padding: 28px 0;
   display: block;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 17px;
   text-decoration: none;
   position: relative;
   transition: color 0.3s ease;
@@ -229,4 +231,16 @@ body {
     color: #ffffff;
     padding: 14px 20px 12px 40px;
   }
+}
+h3 {
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+img {
+  height: 85px;
+
+  padding-bottom: 15px;
 }

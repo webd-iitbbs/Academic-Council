@@ -18,7 +18,7 @@ class Resources extends Component {
         <Jumbotron style={{ marginBottom: '0rem' }} className="Jumbo">
           <Container>
             <div className="text">
-              <h2 style={{ fontSize: '45px' }}>Academic Resources</h2>
+              <h2 className="mainHeading">Academic Resources</h2>
               <p clasName="body">
                 The Academics and Career Council of the Indian Institute of
                 Technology, Bhubaneswar is a council directly placed under the
@@ -41,41 +41,6 @@ class Resources extends Component {
         </div>
         <div className="section">
           <h1 className="heading">Course Hacks</h1>
-          {/* <h2
-            className="heading"
-            style={{
-              textAlign: 'left',
-              padding: '10px 40px',
-              fontSize: '30px',
-            }}
-          >
-            First Year
-          </h2>
-          <div className="cards">
-            <Card className="card" style={{ margin: '20px 40px' }}>
-              <Card.Img variant="top" src={Chemistry} className="images1" />
-              <Card.Body>
-                <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
-                >
-                  Chemistry Semester
-                </Card.Title>
-              </Card.Body>
-            </Card>
-            <Card
-              className="card"
-              style={{ margin: '20px 40px', height: '400px' }}
-            >
-              <Card.Img variant="top" src={Physics} className="images1" />
-              <Card.Body>
-                <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
-                >
-                  Physics Semester
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </div> */}
           <h2
             className="heading"
             style={{
@@ -86,8 +51,8 @@ class Resources extends Component {
           >
             Schools
           </h2>
-          <div className="cards" style={{ marginLeft: '30px' }}>
-            <Card className="card" style={{ margin: '30px 30px' }}>
+          <div className="cards" style={{ margin: '20px' }}>
+            <Card className="card">
               <Card.Img variant="top" src={SES} className="images1" />
               <Card.Body>
                 <Card.Title
@@ -128,7 +93,7 @@ class Resources extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="card" style={{ margin: '30px 30px' }}>
+            <Card className="card">
               <Card.Img variant="top" src={SMS} className="images1" />
               <Card.Body>
                 <Card.Title
@@ -151,7 +116,7 @@ class Resources extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="card" style={{ margin: '30px 30px' }}>
+            <Card className="card">
               <Card.Img variant="top" src={SIF} className="images1" />
               <Card.Body>
                 <Card.Title
@@ -175,8 +140,8 @@ class Resources extends Component {
               </Card.Body>
             </Card>
           </div>
-          <div className="cards" style={{ marginLeft: '30px' }}>
-            <Card className="card" style={{ margin: '30px 30px' }}>
+          <div className="cards" style={{ margin: '20px' }}>
+            <Card className="card">
               <Card.Img variant="top" src={SMMS} className="images1" />
               <Card.Body>
                 <Card.Title
