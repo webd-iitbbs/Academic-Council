@@ -46,21 +46,25 @@ class NavBar extends Component {
                 <div className="navbar-nav">
                   <ul>
                     <li>
-                      <a href="http://localhost:3000/">Home</a>
+                      <a href="https://academiccouncil-iitbbs.web.app/">Home</a>
                     </li>
                     <li>
-                      <a href="http://localhost:3000/resources">
+                      <a href="https://academiccouncil-iitbbs.web.app/resources">
                         Academic Resources
                       </a>
                     </li>
                     <li>
-                      <a href="http://localhost:3000/">Research </a>
+                      <a href="https://academiccouncil-iitbbs.web.app/">
+                        Research{' '}
+                      </a>
                     </li>
                     <li>
-                      <a href="http://localhost:3000/">Alumni</a>
+                      <a href="https://academiccouncil-iitbbs.web.app/">
+                        Alumni
+                      </a>
                     </li>
                     <li>
-                      <a href="http://localhost:3000/">Team</a>
+                      <a href="https://academiccouncil-iitbbs.web.app/">Team</a>
                     </li>
                   </ul>
                 </div>
