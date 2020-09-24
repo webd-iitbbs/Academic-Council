@@ -24,7 +24,7 @@
   text-align: center;
   width: 100%;
   background-color: aliceblue;
-  padding: 50px 30px;
+  padding: 50px 20px;
   margin: 0px;
 }
 .body {
@@ -74,7 +74,7 @@
   margin-bottom: 30px;
 }
 .cardBody {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 @media (max-width: 800px) {
   .cards {
@@ -82,11 +82,27 @@
     align-items: center;
     flex-flow: column;
   }
+  .text {
+    margin-top: 110px;
+  }
   .card {
     width: 105%;
     margin-bottom: 20px;
   }
   .mainHeading {
     font-size: 35px;
+  }
+}
+@media (max-width: 360px) {
+  .mainHeading {
+    font-size: 30px;
+  }
+  .text {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .mainHeading {
+    font-size: 25px;
   }
 }

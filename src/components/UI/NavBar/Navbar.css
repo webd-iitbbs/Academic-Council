@@ -38,7 +38,7 @@ body {
   flex-wrap: wrap;
 }
 .navbar {
-  height: 120px;
+  height: 90px;
   background-color: #333333;
 }
 .justify-content-between {
@@ -182,12 +182,12 @@ body {
 }
 @media (max-width: 991px) {
   .navbar .navbar-nav ul > li {
-    margin: 0 15px;
+    margin: 0 10px;
   }
 }
 @media (max-width: 767px) {
   .navbar {
-    padding: 15px;
+    padding: 10px;
   }
   .navbar .navbar-nav-toggle {
     display: flex;
@@ -241,7 +241,7 @@ h3 {
 }
 img {
   height: 65px;
-  padding-right: 5px;
+
   padding-bottom: 5px;
   margin-left: 0px;
 }
@@ -251,13 +251,12 @@ img {
     display: none;
   }
   h3 {
-    font-size: 25px;
-    margin-left: 4px;
+    display: none;
   }
   img {
-    height: 50px;
+    height: 55px;
   }
   .navbar {
-    padding: 0px;
+    height: 80px;
   }
 }

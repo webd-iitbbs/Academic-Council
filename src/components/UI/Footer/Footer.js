@@ -1,8 +1,16 @@
 import React from 'react';
 import './Footer.css';
-import { FaFacebookSquare } from 'react-icons/fa';
-import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
-import { ImYoutube } from 'react-icons/im';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faYoutube,
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+// import { FaFacebookSquare } from 'react-icons/fa';
+// import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
+// import { ImYoutube } from 'react-icons/im';
+// import facebookLogo from './../../../assets/Images/facebook.png';
 const Footer = () => {
   return (
     <div>
@@ -23,34 +31,38 @@ const Footer = () => {
               Near Argul - Jatni Rd, Kansapada, <br /> Odisha-752050
             </p>
             <br />
-            <div className="social">
+            <div className="social-container">
               <a
                 href="https://www.facebook.com/iitbbs/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="facebook social"
               >
-                <FaFacebookSquare size="30px" />
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
               <a
                 href="https://www.instagram.com/iitbhubaneswar/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="instagram social"
               >
-                <AiFillInstagram size="30px" />
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
               <a
                 href="https://twitter.com/iitbbs"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="twitter social"
               >
-                <AiOutlineTwitter size="30px" />
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
               </a>
               <a
                 href="https://www.youtube.com/channel/UC_zUJNlSZjHyg1P_KPrY0Zg"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="youtube social"
               >
-                <ImYoutube size="30px" />
+                <FontAwesomeIcon icon={faYoutube} size="2x" />
               </a>
             </div>
           </div>

@@ -14,11 +14,12 @@ class NavBar extends Component {
             <div className="row justify-content-between align-items-center">
               <img src={Logo} alt="iitbs" />
               <h3>IIT Bhubaneswar</h3>
-              <DrawerToggle clicked={this.props.clicked} />
+
               <div className="DesktopOnly">
                 <NavigationItems />
               </div>
             </div>
+            <DrawerToggle clicked={this.props.clicked} />
           </div>
         </nav>
       </Aux>
