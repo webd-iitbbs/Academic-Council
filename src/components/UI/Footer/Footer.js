@@ -28,8 +28,6 @@ const Footer = () => {
                 href="https://www.facebook.com/iitbbs/"
                 target="_blank"
                 rel="noopener noreferrer"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <FaFacebookSquare size="30px" />
               </a>
@@ -65,7 +63,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <li>IIT Bhubneswar</li>
+                <li>IIT Bhubaneswar</li>
               </a>
               <br />
               <a
@@ -88,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          Designed by Web and Design Society , IIT Bhubneswar
+          Designed by Web and Design Society , IIT Bhubaneswar
         </div>
       </div>
     </div>

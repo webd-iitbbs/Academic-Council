@@ -9,7 +9,7 @@ class NavBar extends Component {
   componentDidMount() {
     const script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = './navScript.js';
+    script.src = 'navScript.js';
     script.async = true;
     document.body.appendChild(script);
   }
@@ -31,7 +31,7 @@ class NavBar extends Component {
             <div className="container">
               <div className="row justify-content-between align-items-center">
                 <img src={Logo} alt="iitbs" />
-                <h3>IIT Bhubneswar</h3>
+                <h3>IIT Bhubaneswar</h3>
                 <button className="navbar-nav-toggle">
                   <span />
                 </button>
@@ -57,7 +57,7 @@ class NavBar extends Component {
               </div>
             </div>
           </nav>
-          <script src="navScript.js" />
+          {/* <script src="navScript.js" /> */}
         </div>
       </Aux>
     );
