@@ -235,18 +235,29 @@ body {
 h3 {
   color: white;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: 45px;
   margin-left: 10px;
   margin-right: 20px;
 }
 img {
-  height: 85px;
-
-  padding-bottom: 15px;
+  height: 65px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-left: 0px;
 }
 
 @media (max-width: 499px) {
   .DesktopOnly {
     display: none;
+  }
+  h3 {
+    font-size: 25px;
+    margin-left: 4px;
+  }
+  img {
+    height: 50px;
+  }
+  .navbar {
+    padding: 0px;
   }
 }

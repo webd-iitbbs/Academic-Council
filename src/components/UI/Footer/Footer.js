@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section about">
             <h1 className="logo-text">
-              <span>IIT </span>Bhubneswar
+              <span>IIT </span>Bhubaneswar
             </h1>
 
             <p>
