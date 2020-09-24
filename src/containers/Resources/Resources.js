@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Auxil/Auxil';
-import { Jumbotron, Container, Card, Button } from 'react-bootstrap';
+import { Jumbotron, Container, Card } from 'react-bootstrap';
 import './Resources.css';
 import './../Home/Home.css';
 

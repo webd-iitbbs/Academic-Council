@@ -88,7 +88,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          | Designed by Web and Design Society , IIT Bhubneswar |
+          Designed by Web and Design Society , IIT Bhubneswar
         </div>
       </div>
     </div>

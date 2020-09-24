@@ -4,8 +4,7 @@ import './Navbar.css';
 import Aux from './../../../hoc/Auxil/Auxil';
 import ScriptTag from 'react-script-tag';
 import Logo from './logo.png';
-import iitbbs_name from './iitbbs_name.png';
-
+import { Link } from 'react-router-dom';
 class NavBar extends Component {
   componentDidMount() {
     const script = document.createElement('script');
@@ -27,14 +26,7 @@ class NavBar extends Component {
             type="text/javascript"
             src="navScript.js"
           />
-          {/* <div className="head">
-            <div className="box">
-              <img src={Logo} alt="logo" />
-            </div>
-            <div className="name">
-              <img src={iitbbs_name} alt="iitbbs" />
-            </div>
-          </div> */}
+
           <nav className="navbar">
             <div className="container">
               <div className="row justify-content-between align-items-center">
@@ -46,25 +38,19 @@ class NavBar extends Component {
                 <div className="navbar-nav">
                   <ul>
                     <li>
-                      <a href="https://academiccouncil-iitbbs.web.app/">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a href="https://academiccouncil-iitbbs.web.app/resources">
-                        Academic Resources
-                      </a>
+                      <Link to="/resources">Academic Resources</Link>
                     </li>
                     <li>
-                      <a href="https://academiccouncil-iitbbs.web.app/">
-                        Research{' '}
-                      </a>
+                      <Link to="/">Research</Link>
                     </li>
                     <li>
-                      <a href="https://academiccouncil-iitbbs.web.app/">
-                        Alumni
-                      </a>
+                      <Link to="/">Alumni</Link>
                     </li>
                     <li>
-                      <a href="https://academiccouncil-iitbbs.web.app/">Team</a>
+                      <Link to="/">Team</Link>
                     </li>
                   </ul>
                 </div>
