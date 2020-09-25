@@ -71,7 +71,7 @@ const Footer = () => {
             <ul>
               <br />
               <a
-                href="http://iitbbs.ac.in/"
+                href="https://www.iitbbs.ac.in/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

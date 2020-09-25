@@ -11,6 +11,15 @@
 .images1 {
   height: 45%;
 }
+.subHeading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-align: left;
+  margin-left: 30px;
+  color: rgb(48, 37, 37);
+  font-size: 27px;
+  text-shadow: 1px 1px rgb(184, 199, 199);
+}
 
 ul {
   list-style-type: none;
@@ -20,4 +29,21 @@ ul {
 li a {
   color: rgb(109, 199, 109);
   padding: 0px;
+}
+
+li a:active {
+  color: rgb(22, 112, 22);
+  text-decoration: none;
+}
+li a:link {
+  text-decoration: none;
+}
+li a:visited {
+  color: rgb(109, 199, 109);
+}
+
+@media (max-width: 500px) {
+  .subHeading {
+    margin-left: 15px;
+  }
 }

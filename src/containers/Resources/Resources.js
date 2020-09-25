@@ -41,16 +41,7 @@ class Resources extends Component {
         </div>
         <div className="section">
           <h1 className="heading">Course Hacks</h1>
-          <h2
-            className="heading"
-            style={{
-              textAlign: 'left',
-              padding: '30px 10px 0px 57px',
-              fontSize: '30px',
-            }}
-          >
-            Schools
-          </h2>
+          <h2 className="subHeading">Schools</h2>
           <div className="cards" style={{ margin: '20px' }}>
             <Card className="card">
               <Card.Img variant="top" src={SES} className="images1" />
