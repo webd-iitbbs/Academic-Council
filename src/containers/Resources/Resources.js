@@ -119,7 +119,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://drive.google.com/drive/folders/1fxo6EBV_goofIeMtJcYpOv6qwrUwS7OV?usp=sharing"
+                        href="https://drive.google.com/drive/folders/1eDnaLqn95IiOs8f-6xbR9C66fGNfkDeS?usp=sharing_eil&ts=5e33e4f2"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

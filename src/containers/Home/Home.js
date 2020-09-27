@@ -9,7 +9,6 @@ import TeamPicture from '../../assets/Images/team.jpg';
 import AlumniPicture from '../../assets/Images/alumni.jpg';
 import AcademicResource from '../../assets/Images/academicResources.jpg';
 import SES from '../../assets/Images/ses.jpg';
-
 class Home extends Component {
   // useEffect(() => {
   //   Aos.init({ duration: 2000 });
