@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 550px;
   text-align: center;
   margin-bottom: 0rem;
 }
@@ -23,12 +23,14 @@
 
 ul {
   list-style-type: none;
+  text-align: left;
   margin: 0px;
   padding: 0px;
 }
 li a {
-  color: rgb(109, 199, 109);
+  color: #f009dd;
   padding: 0px;
+  font-size: 15px;
 }
 
 li a:active {
@@ -39,9 +41,11 @@ li a:link {
   text-decoration: none;
 }
 li a:visited {
-  color: rgb(109, 199, 109);
+  color: rgb(59, 150, 63);
 }
-
+li a:hover {
+  color: rgb(12, 70, 20);
+}
 @media (max-width: 500px) {
   .subHeading {
     margin-left: 15px;

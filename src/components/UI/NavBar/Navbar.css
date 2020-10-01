@@ -39,7 +39,7 @@ body {
 }
 .navbar {
   height: 90px;
-  background-color: #333333;
+  /* background-color: #333333; */
 }
 .justify-content-between {
   justify-content: space-between;
@@ -118,8 +118,9 @@ body {
 .navbar .navbar-nav ul > li > a {
   padding: 28px 0;
   display: block;
-  color: #ffffff;
-  font-size: 17px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   position: relative;
   transition: color 0.3s ease;
@@ -179,6 +180,9 @@ body {
 .navbar .navbar-nav ul > li > .sub-menu > li > a:hover {
   background-color: #8b8989;
   color: #ffffff;
+}
+.navbar .navbar-nav ul > li > .sub-menu > li > a:visited {
+  color: #686868;
 }
 @media (max-width: 991px) {
   .navbar .navbar-nav ul > li {

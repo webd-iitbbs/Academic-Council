@@ -8,14 +8,18 @@ import SMS from '../../assets/Images/SMS.jpg';
 
 import SIF from '../../assets/Images/SIF.jpg';
 import SMMS from '../../assets/Images/SMMS.jpg';
-
+import NavControls from './../NavControls';
 import SES from '../../assets/Images/ses.jpg';
 
 class Resources extends Component {
   render() {
     return (
       <Aux>
-        <Jumbotron style={{ marginBottom: '0rem' }} className="Jumbo">
+        <Jumbotron
+          style={{ paddingTop: '0rem', marginBottom: '0rem' }}
+          className="Jumbo"
+        >
+          <NavControls />
           <Container>
             <div className="text">
               <h2 className="mainHeading">Academic Resources</h2>
@@ -40,14 +44,18 @@ class Resources extends Component {
           </p>
         </div>
         <div className="section">
-          <h1 className="heading">Course Hacks</h1>
+          <h1 className="heading">Help guides</h1>
           <h2 className="subHeading">Schools</h2>
           <div className="cards" style={{ margin: '20px' }}>
             <Card className="card">
               <Card.Img variant="top" src={SES} className="images1" />
               <Card.Body>
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                  style={{
+                    fontSize: '24px',
+                    color: 'rgb(73, 2, 2)',
+                    textAlign: 'left',
+                  }}
                 >
                   School of Electrical Sciences
                 </Card.Title>
@@ -88,7 +96,11 @@ class Resources extends Component {
               <Card.Img variant="top" src={SMS} className="images1" />
               <Card.Body>
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                  style={{
+                    fontSize: '24px',
+                    color: 'rgb(73, 2, 2)',
+                    textAlign: 'left',
+                  }}
                 >
                   School of Mechanical Sciences
                 </Card.Title>
@@ -111,7 +123,11 @@ class Resources extends Component {
               <Card.Img variant="top" src={SIF} className="images1" />
               <Card.Body>
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                  style={{
+                    fontSize: '24px',
+                    color: 'rgb(73, 2, 2)',
+                    textAlign: 'left',
+                  }}
                 >
                   School of Infrastructure
                 </Card.Title>
@@ -136,7 +152,11 @@ class Resources extends Component {
               <Card.Img variant="top" src={SMMS} className="images1" />
               <Card.Body>
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                  style={{
+                    fontSize: '24px',
+                    color: 'rgb(73, 2, 2)',
+                    textAlign: 'left',
+                  }}
                 >
                   School of Minerals, Metallurgical and Materials Engineering
                 </Card.Title>

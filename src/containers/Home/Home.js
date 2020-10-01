@@ -9,6 +9,7 @@ import TeamPicture from '../../assets/Images/team.jpg';
 import AlumniPicture from '../../assets/Images/alumni.jpg';
 import AcademicResource from '../../assets/Images/academicResources.jpg';
 import SES from '../../assets/Images/ses.jpg';
+import NavControls from './../NavControls';
 class Home extends Component {
   // useEffect(() => {
   //   Aos.init({ duration: 2000 });
@@ -20,7 +21,11 @@ class Home extends Component {
   render() {
     return (
       <Aux>
-        <Jumbotron style={{ marginBottom: '0rem' }} className="Jumbotron">
+        <Jumbotron
+          style={{ paddingTop: '0rem', marginBottom: '0rem' }}
+          className="Jumbotron"
+        >
+          <NavControls />
           <Container>
             <div className="text">
               <h2 className="mainHeading">IIT BHUBANESWAR</h2>

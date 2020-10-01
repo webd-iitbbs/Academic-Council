@@ -13,10 +13,10 @@ const NavigationItems = (props) => {
           <Link to="/resources">Academic Resources</Link>
         </li>
         <li>
-          <Link to="/">Research</Link>
+          <Link to="/research">Research</Link>
         </li>
         <li>
-          <Link to="/">Alumni</Link>
+          <Link to="/alumni">Alumni</Link>
         </li>
         <li>
           <Link to="/">Team</Link>
