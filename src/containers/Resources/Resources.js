@@ -35,12 +35,11 @@ class Resources extends Component {
         <div className="content">
           <h2 className="heading">Our Objective</h2>
           <p className="body">
-            Indian Institute of Technology Bhubaneswar (IITBBS) was established
-            on 22nd July, 2008. The Institute strives to offer the best
-            engineering education with unmatched novelties in curriculum. Within
-            a short span of incipience, Being able to research and use materials
-            which back up your study or offer different interpretations of your
-            study area is an essential aspect of studying and learning.
+            Experienced students from the final and pre-final year collectively
+            prepare materials to help extend knowledge, experience and tips for
+            the readers to gain a head-start in their academic prowess and to
+            ace their courses as well as their practical applications in the
+            laboratories.
           </p>
         </div>
         <div className="section">

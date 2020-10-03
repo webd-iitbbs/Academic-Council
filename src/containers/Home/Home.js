@@ -93,13 +93,17 @@ class Home extends Component {
                   Research
                 </Card.Title>
                 <Card.Text>
-                  The UG/PG Academics Wing takes up the responsibility of the
-                  academics related work of the Academic and Career Council. It
-                  acts as an interface between the institute policy makers and
-                  the students on matters related to academia.
+                  Student researchers and research assistants guide juniors with
+                  a strong interest in impactful and disruptive research,
+                  achieve their potential and also help them in building
+                  research contacts and choosing projects.
                 </Card.Text>
               </Card.Body>
-              <Button variant="info" className="button">
+              <Button
+                variant="info"
+                className="button"
+                onClick={() => this.redirectTo('research')}
+              >
                 Learn more
               </Button>
             </Card>
@@ -112,13 +116,17 @@ class Home extends Component {
                   Alumni
                 </Card.Title>
                 <Card.Text>
-                  The UG/PG Academics Wing takes up the responsibility of the
-                  academics related work of the Academic and Career Council. It
-                  acts as an interface between the institute policy makers and
-                  the students on matters related to academia.
+                  The council strives to build strong alumni relations and bring
+                  them on board for their experience in academic and
+                  non-academic fields accumulated during and after their stay in
+                  the institute.
                 </Card.Text>
               </Card.Body>
-              <Button variant="info" className="button">
+              <Button
+                variant="info"
+                className="button"
+                onClick={() => this.redirectTo('alumni')}
+              >
                 Learn more
               </Button>
             </Card>
@@ -132,10 +140,9 @@ class Home extends Component {
                   Team
                 </Card.Title>
                 <Card.Text>
-                  The UG/PG Academics Wing takes up the responsibility of the
-                  academics related work of the Academic and Career Council. It
-                  acts as an interface between the institute policy makers and
-                  the students on matters related to academia.
+                  Head over to see the various branches and their members who
+                  work relentlessly to uphold the spirit and values of the
+                  council.
                 </Card.Text>
               </Card.Body>
               <Button variant="info" className="button">

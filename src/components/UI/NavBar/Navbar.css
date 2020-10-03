@@ -139,7 +139,7 @@ body {
   width: 100%;
 }
 .navbar .navbar-nav ul > li > a:hover {
-  color: #8b8989;
+  color: #d8d8d7;
 }
 
 .navbar .navbar-nav ul > li > .sub-menu {
@@ -181,9 +181,7 @@ body {
   background-color: #8b8989;
   color: #ffffff;
 }
-.navbar .navbar-nav ul > li > .sub-menu > li > a:visited {
-  color: #686868;
-}
+
 @media (max-width: 991px) {
   .navbar .navbar-nav ul > li {
     margin: 0 10px;
