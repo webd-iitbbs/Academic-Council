@@ -23,23 +23,23 @@ class Resources extends Component {
           <Container>
             <div className="text">
               <h2 className="mainHeading">Academic Resources</h2>
-              <p clasName="body">
-                The Academics and Career Council of the Indian Institute of
-                Technology, Bhubaneswar is a council directly placed under the
-                Student's Gymkhana, that aims to foster all needs related to
-                academics and research for the campus dwellers.
+              <p className="subject">
+                Experienced students from the final and pre-final year
+                collectively prepare materials to help extend knowledge,
+                experience and tips for the readers to gain a head-start in
+                their academic prowess and to ace their courses as well as their
+                practical applications in the laboratories.
               </p>
             </div>
           </Container>
         </Jumbotron>
         <div className="content">
-          <h2 className="heading">Our Objective</h2>
+          <h2 className="heading">Objective</h2>
           <p className="body">
-            Experienced students from the final and pre-final year collectively
-            prepare materials to help extend knowledge, experience and tips for
-            the readers to gain a head-start in their academic prowess and to
-            ace their courses as well as their practical applications in the
-            laboratories.
+            With the institute growing in number of students, age, and
+            infrastructure, the council believes it is for the student community
+            to step up and achieve great things by helping each other for our
+            common goals.
           </p>
         </div>
         <div className="section">

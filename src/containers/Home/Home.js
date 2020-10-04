@@ -29,17 +29,17 @@ class Home extends Component {
           <Container>
             <div className="text">
               <h2 className="mainHeading">IIT BHUBANESWAR</h2>
-              <p clasName="body">
-                The Academics and Career Council of the Indian Institute of
-                Technology, Bhubaneswar is a council directly placed under the
-                Student's Gymkhana, that aims to foster all needs related to
-                academics and research for the campus dwellers.
+              <p className="subject">
+                The Academic Council of the Indian Institute of Technology,
+                Bhubaneswar is a council that aims to foster all needs related
+                to academics and research for the campus dwellers by experienced
+                and dedicated students.
               </p>
             </div>
           </Container>
         </Jumbotron>
 
-        <div className="content">
+        {/* <div className="content">
           <h2 className="heading">About us</h2>
           <p className="body">
             Indian Institute of Technology Bhubaneswar (IITBBS) was established
@@ -53,9 +53,10 @@ class Home extends Component {
             to facilitate creativity and cognitive thinking among students
             through productive partnership with industries.
           </p>
-        </div>
+        </div> */}
         <div className="section">
-          <h1 className="heading"> Objective</h1>
+          {/* <h1 className="heading"> Objective</h1> */}
+          <br></br>
           <div className="cards" style={{ margin: '20px' }}>
             <Card className="card">
               <Card.Img
@@ -70,10 +71,11 @@ class Home extends Component {
                   Resources
                 </Card.Title>
                 <Card.Text>
-                  The UG/PG Academics Wing takes up the responsibility of the
-                  academics related work of the Academic and Career Council. It
-                  acts as an interface between the institute policy makers and
-                  the students on matters related to academia.
+                  Experienced students from the final and pre-final year
+                  collectively prepare materials to help extend knowledge,
+                  experience and tips for the readers to gain a head-start in
+                  their academic prowess and to ace their courses as well as
+                  their practical applications in the laboratories.
                 </Card.Text>
               </Card.Body>
               <Button
