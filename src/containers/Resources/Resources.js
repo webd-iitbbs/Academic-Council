@@ -21,7 +21,7 @@ class Resources extends Component {
         >
           <NavControls />
           <Container>
-            <div className="text">
+            <div className="text1">
               <h2 className="mainHeading">Academic Resources</h2>
               <p className="subject">
                 Experienced students from the final and pre-final year

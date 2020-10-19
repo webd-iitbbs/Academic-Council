@@ -39,6 +39,7 @@ body {
 }
 .navbar {
   height: 90px;
+  padding-right: 0px;
   /* background-color: #333333; */
 }
 .justify-content-between {

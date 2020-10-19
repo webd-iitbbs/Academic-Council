@@ -12,7 +12,17 @@
   text-align: center;
   margin-bottom: 0rem;
 }
+.text1 {
+  text-align: center;
 
+  width: 100%;
+  border-radius: 30px;
+  background: rgba(8, 8, 8, 0.349);
+  padding: 10px 20px;
+  margin-top: 100px;
+  box-sizing: border-box;
+  color: white;
+}
 .images1 {
   height: 45%;
 }

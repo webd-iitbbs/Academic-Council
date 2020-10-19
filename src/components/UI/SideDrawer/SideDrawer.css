@@ -1,12 +1,12 @@
 .SideDrawer {
   position: fixed;
-  width: 50%;
-  max-width: 300px;
+  width: 55%;
+  max-width: 290px;
   height: 100%;
   left: 0;
   top: 0;
   z-index: 200;
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(102, 102, 102);
   padding-top: 32px;
   padding-left: 5px;
   box-sizing: border-box;
@@ -22,7 +22,8 @@
 }
 .link {
   color: white;
-  text-decoration: none;
+  /* text-decoration: none; */
+  font-size: 17px;
 }
 .SideDrawer a:link {
   text-decoration: none;

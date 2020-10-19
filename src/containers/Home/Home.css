@@ -38,8 +38,8 @@
 }
 .subject {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.87);
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.938);
   line-height: 1.5;
   margin: 10px;
 }
@@ -57,6 +57,7 @@
   width: 22rem;
   margin: 10px;
   margin-top: 0px;
+  box-shadow: 2px 2px 2px rgba(206, 204, 204, 0.397);
 }
 
 .images {
@@ -101,12 +102,15 @@
     font-size: 35px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 499px) {
   .mainHeading {
     font-size: 30px;
   }
   .text {
     margin-top: 100px;
+  }
+  .subject {
+    margin: 5px;
   }
 }
 @media (max-width: 320px) {

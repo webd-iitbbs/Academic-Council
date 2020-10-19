@@ -1,7 +1,6 @@
 import React from 'react';
 import './../NavBar/Navbar.css';
 import './SideDrawer.css';
-// import Backdrop from '../../UI/Backdrop/Backdrop';
 import Aux from '../../../hoc/Auxil/Auxil';
 import { Link } from 'react-router-dom';
 
@@ -12,8 +11,6 @@ const sideDrawer = (props) => {
   }
   return (
     <Aux>
-      {/* <Backdrop show={props.open} clicked={props.closed} /> */}
-
       <div className={attachedClasses.join(' ')} onClick={props.closed}>
         <ul className="list">
           <li className="tag">

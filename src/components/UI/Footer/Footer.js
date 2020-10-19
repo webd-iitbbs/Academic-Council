@@ -7,10 +7,7 @@ import {
   faInstagram,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
-// import { FaFacebookSquare } from 'react-icons/fa';
-// import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
-// import { ImYoutube } from 'react-icons/im';
-// import facebookLogo from './../../../assets/Images/facebook.png';
+
 const Footer = () => {
   return (
     <div>

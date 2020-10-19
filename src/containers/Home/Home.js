@@ -39,23 +39,6 @@ class Home extends Component {
           </Container>
         </Jumbotron>
 
-        {/* <div className="content">
-          <h2 className="heading">About us</h2>
-          <p className="body">
-            Indian Institute of Technology Bhubaneswar (IITBBS) was established
-            on 22nd July, 2008. The Institute strives to offer the best
-            engineering education with unmatched novelties in curriculum. Within
-            a short span of incipience, IITBBS has made rapid strides towards
-            becoming one of the elite technology institute of India spurred by
-            sustained creation of knowledge and innovation, through high quality
-            R&D activities and commitment to holistic education. The Institute
-            aims to develop and pursue dynamic and flexible curricula designed
-            to facilitate creativity and cognitive thinking among students
-            through productive partnership with industries.
-          </p>
-        </div> */}
-        <div className="section">
-          {/* <h1 className="heading"> Objective</h1> */}
           <br></br>
           <div className="cards" style={{ margin: '20px' }}>
             <Card className="card">
@@ -152,7 +135,7 @@ class Home extends Component {
               </Button>
             </Card>
           </div>
-        </div>
+        
       </Aux>
     );
   }
