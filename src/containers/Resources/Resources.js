@@ -35,7 +35,7 @@ class Resources extends Component {
         </Jumbotron>
         <div className="content">
           <h2 className="heading">Objective</h2>
-          <p className="body">
+          <p className="subText">
             With the institute growing in number of students, age, and
             infrastructure, the council believes it is for the student community
             to step up and achieve great things by helping each other for our
@@ -46,9 +46,9 @@ class Resources extends Component {
           <h1 className="heading">Help guides</h1>
           <h2 className="subHeading">Schools</h2>
           <div className="cards" style={{ margin: '20px' }}>
-            <Card className="card">
+            <Card className="card" >
               <Card.Img variant="top" src={SES} className="images1" />
-              <Card.Body>
+              <Card.Body style={{padding:'10px'}}>
                 <Card.Title
                   style={{
                     fontSize: '24px',

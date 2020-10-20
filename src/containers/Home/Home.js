@@ -49,11 +49,11 @@ class Home extends Component {
               />
               <Card.Body className="cardBody">
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                 className="cardTitle"
                 >
                   Resources
                 </Card.Title>
-                <Card.Text>
+                <Card.Text className="cardText">
                   Experienced students from the final and pre-final year
                   collectively prepare materials to help extend knowledge,
                   experience and tips for the readers to gain a head-start in
@@ -73,11 +73,11 @@ class Home extends Component {
               <Card.Img variant="top" src={SES} className="images" />
               <Card.Body className="cardBody">
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                 className="cardTitle"
                 >
                   Research
                 </Card.Title>
-                <Card.Text>
+                <Card.Text className="cardText">
                   Student researchers and research assistants guide juniors with
                   a strong interest in impactful and disruptive research,
                   achieve their potential and also help them in building
@@ -96,11 +96,11 @@ class Home extends Component {
               <Card.Img variant="top" src={AlumniPicture} className="images" />
               <Card.Body className="cardBody">
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                 className="cardTitle"
                 >
                   Alumni
                 </Card.Title>
-                <Card.Text>
+                <Card.Text className="cardText">
                   The council strives to build strong alumni relations and bring
                   them on board for their experience in academic and
                   non-academic fields accumulated during and after their stay in
@@ -120,11 +120,11 @@ class Home extends Component {
               <Card.Img variant="top" src={TeamPicture} className="images" />
               <Card.Body className="cardBody">
                 <Card.Title
-                  style={{ fontSize: '24px', color: 'rgb(73, 2, 2)' }}
+                 className="cardTitle"
                 >
                   Team
                 </Card.Title>
-                <Card.Text>
+                <Card.Text className="cardText">
                   Head over to see the various branches and their members who
                   work relentlessly to uphold the spirit and values of the
                   council.

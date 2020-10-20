@@ -35,6 +35,11 @@
   font-size: 27px;
   text-shadow: 1px 1px rgb(184, 199, 199);
 }
+.subText {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: rgba(26, 23, 23, 0.877);
+}
 
 ul {
   list-style-type: none;
@@ -43,13 +48,14 @@ ul {
   padding: 0px;
 }
 li a {
-  color: #f009dd;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(13, 129, 52);
   padding: 0px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 li a:active {
-  color: rgb(22, 112, 22);
+  color: rgb(13, 129, 52);
   text-decoration: none;
 }
 li a:link {
