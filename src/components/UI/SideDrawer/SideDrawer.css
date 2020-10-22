@@ -42,9 +42,12 @@
     display: none;
   }
 }
-@media (max-width: 306px) {
+@media (max-width: 350px) {
   .SideDrawer {
     width: 60%;
+  }
+  .link {
+    font-size: 15px;
   }
 }
 .Open {

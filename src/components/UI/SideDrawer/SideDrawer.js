@@ -24,17 +24,17 @@ const sideDrawer = (props) => {
             </Link>
           </li>
           <li className="tag">
-            <Link to="/" className="link">
+            <Link to="/resources" className="link">
               Research
             </Link>
           </li>
           <li className="tag">
-            <Link to="/" className="link">
+            <Link to="/alumni" className="link">
               Alumni
             </Link>
           </li>
           <li>
-            <Link to="/" className="link">
+            <Link to="/team" className="link">
               Team
             </Link>
           </li>

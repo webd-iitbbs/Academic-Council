@@ -62,7 +62,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://drive.google.com/drive/folders/1JSoDscO4s5mXkRUq5HQtjdMBAs1qkaVc?usp=sharing"
+                        href="https://acadiitbbs.herokuapp.com/en/ses/cse"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -71,7 +71,7 @@ class Resources extends Component {
                     </li>
                     <li>
                       <a
-                        href="https://drive.google.com/drive/folders/1BuXd0OBEVjzzt2NORsrZ6hTRtyzHbRh6?usp=sharing"
+                        href="https://acadiitbbs.herokuapp.com/en/ses/ece"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -80,7 +80,7 @@ class Resources extends Component {
                     </li>
                     <li>
                       <a
-                        href="https://drive.google.com/drive/folders/1bMRxRd86mwG1MHZttCqgkStDP7Cqdo49"
+                        href="https://acadiitbbs.herokuapp.com/en/ses/ee"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -107,7 +107,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://drive.google.com/drive/folders/1fxo6EBV_goofIeMtJcYpOv6qwrUwS7OV?usp=sharing"
+                        href="https://acadiitbbs.herokuapp.com/en/sms"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -134,7 +134,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://drive.google.com/drive/folders/1eDnaLqn95IiOs8f-6xbR9C66fGNfkDeS?usp=sharing_eil&ts=5e33e4f2"
+                        href="https://acadiitbbs.herokuapp.com/en/sif"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -163,7 +163,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://drive.google.com/drive/folders/1dsrgRy1HwclQ4AhN7wN8sO_445NomEDX"
+                        href="https://acadiitbbs.herokuapp.com/en/smme"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
