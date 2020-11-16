@@ -31,111 +31,94 @@ class Home extends Component {
               <h2 className="mainHeading">IIT BHUBANESWAR</h2>
               <p className="subject">
                 The Academic Council of the Indian Institute of Technology,
-                Bhubaneswar is a council that aims to foster all needs related
-                to academics and research for the campus dwellers by experienced
-                and dedicated students.
+                Bhubaneswar is an organisation that aims to foster all needs
+                related to academics and research for the campus dwellers by
+                experienced and dedicated students. This website and all it's
+                available resources are owned, operated and managed by the
+                students.
               </p>
             </div>
           </Container>
         </Jumbotron>
 
-          <br></br>
-          <div className="cards" style={{ margin: '20px' }}>
-            <Card className="card">
-              <Card.Img
-                variant="top"
-                src={AcademicResource}
-                className="images"
-              />
-              <Card.Body className="cardBody">
-                <Card.Title
-                 className="cardTitle"
-                >
-                  Resources
-                </Card.Title>
-                <Card.Text className="cardText">
-                  Experienced students from the final and pre-final year
-                  collectively prepare materials to help extend knowledge,
-                  experience and tips for the readers to gain a head-start in
-                  their academic prowess and to ace their courses as well as
-                  their practical applications in the laboratories.
-                </Card.Text>
-              </Card.Body>
-              <Button
-                variant="info"
-                className="button"
-                onClick={() => this.redirectTo('resources')}
-              >
-                Learn more
-              </Button>
-            </Card>
-            <Card className="card">
-              <Card.Img variant="top" src={SES} className="images" />
-              <Card.Body className="cardBody">
-                <Card.Title
-                 className="cardTitle"
-                >
-                  Research
-                </Card.Title>
-                <Card.Text className="cardText">
-                  Student researchers and research assistants guide juniors with
-                  a strong interest in impactful and disruptive research,
-                  achieve their potential and also help them in building
-                  research contacts and choosing projects.
-                </Card.Text>
-              </Card.Body>
-              <Button
-                variant="info"
-                className="button"
-                onClick={() => this.redirectTo('research')}
-              >
-                Learn more
-              </Button>
-            </Card>
-            <Card className="card">
-              <Card.Img variant="top" src={AlumniPicture} className="images" />
-              <Card.Body className="cardBody">
-                <Card.Title
-                 className="cardTitle"
-                >
-                  Alumni
-                </Card.Title>
-                <Card.Text className="cardText">
-                  The council strives to build strong alumni relations and bring
-                  them on board for their experience in academic and
-                  non-academic fields accumulated during and after their stay in
-                  the institute.
-                </Card.Text>
-              </Card.Body>
-              <Button
-                variant="info"
-                className="button"
-                onClick={() => this.redirectTo('alumni')}
-              >
-                Learn more
-              </Button>
-            </Card>
+        <br></br>
+        <div className="cards" style={{ margin: '20px' }}>
+          <Card className="card">
+            <Card.Img variant="top" src={AcademicResource} className="images" />
+            <Card.Body className="cardBody">
+              <Card.Title className="cardTitle">Resources</Card.Title>
+              <Card.Text className="cardText">
+                Experienced students from the final and pre-final year
+                collectively prepare materials to help extend knowledge,
+                experience and tips for the readers to gain a head-start in
+                their academic prowess and to ace their courses as well as their
+                practical applications in the laboratories.
+              </Card.Text>
+            </Card.Body>
+            <Button
+              variant="info"
+              className="button"
+              onClick={() => this.redirectTo('resources')}
+            >
+              Learn more
+            </Button>
+          </Card>
+          <Card className="card">
+            <Card.Img variant="top" src={SES} className="images" />
+            <Card.Body className="cardBody">
+              <Card.Title className="cardTitle">Research</Card.Title>
+              <Card.Text className="cardText">
+                Student researchers and research assistants guide juniors with a
+                strong interest in impactful and disruptive research, achieve
+                their potential and also help them in building research contacts
+                and choosing projects.
+              </Card.Text>
+            </Card.Body>
+            <Button
+              variant="info"
+              className="button"
+              onClick={() => this.redirectTo('research')}
+            >
+              Learn more
+            </Button>
+          </Card>
+          <Card className="card">
+            <Card.Img variant="top" src={AlumniPicture} className="images" />
+            <Card.Body className="cardBody">
+              <Card.Title className="cardTitle">Alumni</Card.Title>
+              <Card.Text className="cardText">
+                The council strives to build strong alumni relations and bring
+                them on board for their experience in academic and non-academic
+                fields accumulated during and after their stay in the institute.
+              </Card.Text>
+            </Card.Body>
+            <Button
+              variant="info"
+              className="button"
+              onClick={() => this.redirectTo('alumni')}
+            >
+              Learn more
+            </Button>
+          </Card>
 
-            <Card className="card">
-              <Card.Img variant="top" src={TeamPicture} className="images" />
-              <Card.Body className="cardBody">
-                <Card.Title
-                 className="cardTitle"
-                >
-                  Team
-                </Card.Title>
-                <Card.Text className="cardText">
-                  Head over to see the various branches and their members who
-                  work relentlessly to uphold the spirit and values of the
-                  council.
-                </Card.Text>
-              </Card.Body>
-              <Button variant="info" className="button">
-                Learn more
-              </Button>
-            </Card>
-          </div>
-        
+          <Card className="card">
+            <Card.Img variant="top" src={TeamPicture} className="images" />
+            <Card.Body className="cardBody">
+              <Card.Title className="cardTitle">Team</Card.Title>
+              <Card.Text className="cardText">
+                Head over to see the various branches and their members who work
+                relentlessly to uphold the spirit and values of the council.
+              </Card.Text>
+            </Card.Body>
+            <Button
+              variant="info"
+              className="button"
+              onClick={() => this.redirectTo('team')}
+            >
+              Learn more
+            </Button>
+          </Card>
+        </div>
       </Aux>
     );
   }

@@ -37,7 +37,7 @@ class Team extends Component {
              <h1 className = "heading">Team</h1>
              </div>
             <Container className="container">
-             <div className="card">
+             <div className="profileCard">
               <div className="profile-image">
                 <img src={ProfilePic} alt="" />
               </div>
@@ -65,3 +65,5 @@ class Team extends Component {
 
 }
 export default Team;
+
+

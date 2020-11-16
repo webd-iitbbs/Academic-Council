@@ -10,6 +10,8 @@ import SIF from '../../assets/Images/SIF.jpg';
 import SMMS from '../../assets/Images/SMMS.jpg';
 import NavControls from './../NavControls';
 import SES from '../../assets/Images/ses.jpg';
+import skills from '../../assets/Images/skills.jpg';
+import softwareResources from '../../assets/Images/softwareResources.jpg';
 
 class Resources extends Component {
   render() {
@@ -46,9 +48,9 @@ class Resources extends Component {
           <h1 className="heading">Help guides</h1>
           <h2 className="subHeading">Schools</h2>
           <div className="cards" style={{ margin: '20px' }}>
-            <Card className="card" >
+            <Card className="card">
               <Card.Img variant="top" src={SES} className="images1" />
-              <Card.Body style={{padding:'10px'}}>
+              <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
                   style={{
                     fontSize: '24px',
@@ -71,7 +73,7 @@ class Resources extends Component {
                     </li>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/ses/ece"
+                        href="https://acadiitbbs.herokuapp.com/en/ses/Electronics_and_Communication_Engineering/ECE"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -93,7 +95,7 @@ class Resources extends Component {
             </Card>
             <Card className="card">
               <Card.Img variant="top" src={SMS} className="images1" />
-              <Card.Body>
+              <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
                   style={{
                     fontSize: '24px',
@@ -120,7 +122,7 @@ class Resources extends Component {
             </Card>
             <Card className="card">
               <Card.Img variant="top" src={SIF} className="images1" />
-              <Card.Body>
+              <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
                   style={{
                     fontSize: '24px',
@@ -134,7 +136,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/sif"
+                        href="https://acadiitbbs.herokuapp.com/en/School_of_infrastructure/SIF_homepage"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -149,7 +151,7 @@ class Resources extends Component {
           <div className="cards" style={{ margin: '20px' }}>
             <Card className="card">
               <Card.Img variant="top" src={SMMS} className="images1" />
-              <Card.Body>
+              <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
                   style={{
                     fontSize: '24px',
@@ -163,11 +165,73 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/smme"
+                        href="https://acadiitbbs.herokuapp.com/en/smmme/Smmmehome"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         Metallurgical Engineering
+                      </a>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <h2 className="subHeading">Other resources</h2>
+          <div className="cards" style={{ margin: '20px' }}>
+            <Card className="card" style={{ height: '300px' }}>
+              <Card.Img variant="top" src={skills} className="images1" />
+              <Card.Body style={{ padding: '10px' }}>
+                <Card.Title
+                  style={{
+                    fontSize: '24px',
+                    color: 'rgb(73, 2, 2)',
+                    textAlign: 'left',
+                  }}
+                >
+                  Skills
+                </Card.Title>
+                <Card.Text>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://acadiitbbs.herokuapp.com/en/Skills_and_Technologies/CO2_Moulding"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Skills and Technologies
+                      </a>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="card" style={{ height: '300px' }}>
+              <Card.Img
+                variant="top"
+                src={softwareResources}
+                className="images1"
+              />
+              <Card.Body style={{ padding: '10px' }}>
+                <Card.Title
+                  style={{
+                    fontSize: '24px',
+                    color: 'rgb(73, 2, 2)',
+                    textAlign: 'left',
+                  }}
+                >
+                  Software resources
+                </Card.Title>
+                <Card.Text>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://acadiitbbs.herokuapp.com/en/SoftwareResources/home"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Software resources
                       </a>
                     </li>
                   </ul>
