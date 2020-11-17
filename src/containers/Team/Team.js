@@ -105,7 +105,7 @@ class Team extends Component {
             </div>
             <div className="data">
               <p>
-                <span style={{ fontWeight: 'bold' }}>GSoc Head</span> <br />
+                <span style={{ fontWeight: 'bold' }}>G.Soc head</span> <br />
                 Email: amg10@iitbbs.ac.in <br />
                 Contact: 8169328343 <br />
               </p>
