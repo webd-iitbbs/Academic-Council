@@ -24,7 +24,7 @@ const sideDrawer = (props) => {
             </Link>
           </li>
           <li className="tag">
-            <Link to="/resources" className="link">
+            <Link to="/research" className="link">
               Research
             </Link>
           </li>
