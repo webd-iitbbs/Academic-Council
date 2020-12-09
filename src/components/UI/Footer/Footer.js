@@ -94,7 +94,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="footer-bottom">
+        <div className="footer-bottom" style={{fontSize :'1rem;'}}>
           Designed by Web and Design Society , IIT Bhubaneswar
         </div>
       </div>

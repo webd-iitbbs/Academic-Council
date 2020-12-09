@@ -12,6 +12,7 @@ import NavControls from './../NavControls';
 import SES from '../../assets/Images/ses.jpg';
 import skills from '../../assets/Images/skills.jpg';
 import softwareResources from '../../assets/Images/softwareResources.jpg';
+import exam from '../../assets/Images/exam.jpg';
 
 class Resources extends Component {
   render() {
@@ -180,8 +181,8 @@ class Resources extends Component {
 
           <h2 className="subHeading">Other resources</h2>
           <div className="cards" style={{ margin: '20px' }}>
-            <Card className="card" style={{ height: '300px' }}>
-              <Card.Img variant="top" src={skills} style={{ height: '180px' }} className="images1" />
+            <Card className="card" style={{ height: '380px' }}>
+              <Card.Img variant="top" src={skills} style={{ height: '275px' }} className="images1" />
               <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
                   style={{
@@ -207,11 +208,11 @@ class Resources extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="card" style={{ height: '300px' }}>
+            <Card className="card" style={{ height: '380px' }}>
               <Card.Img
                 variant="top"
                 src={softwareResources}
-                className="images1" style={{ height: '180px' }}
+                className="images1" style={{ height: '275px' }}
               />
               <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
@@ -232,6 +233,37 @@ class Resources extends Component {
                         rel="noopener noreferrer"
                       >
                         Software resources
+                      </a>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="card" style={{ height: '380px' }}>
+              <Card.Img
+                variant="top"
+                src={exam}
+                className="images1" style={{ height: '275px' }}
+              />
+              <Card.Body style={{ padding: '10px' }}>
+                <Card.Title
+                  style={{
+                    fontSize: '24px',
+                    color: 'rgb(73, 2, 2)',
+                    textAlign: 'left',
+                  }}
+                >
+                  Previous Question Papers
+                </Card.Title>
+                <Card.Text>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://arpiitbbs.firebaseapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Previous Question Papers
                       </a>
                     </li>
                   </ul>
