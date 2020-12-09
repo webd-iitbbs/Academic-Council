@@ -73,7 +73,7 @@ class Resources extends Component {
                     </li>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/ses/Electronics_and_Communication_Engineering/ECE"
+                        href="https://acadiitbbs.herokuapp.com/en/ses/ece"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -136,7 +136,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/School_of_infrastructure/SIF_homepage"
+                        href="https://acadiitbbs.herokuapp.com/en/sif"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -165,7 +165,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/smmme/Smmmehome"
+                        href="https://acadiitbbs.herokuapp.com/en/smmme"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -196,7 +196,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/Skills_and_Technologies/CO2_Moulding"
+                        href="https://acadiitbbs.herokuapp.com/en/Skills_and_Technologies"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -227,7 +227,7 @@ class Resources extends Component {
                   <ul>
                     <li>
                       <a
-                        href="https://acadiitbbs.herokuapp.com/en/SoftwareResources/home"
+                        href="https://acadiitbbs.herokuapp.com/en/SoftwareResources"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
