@@ -24,7 +24,7 @@ const Footer = () => {
             </h1>
 
             <p>
-              Location : Indian Institute of technology Bhubneswar <br />
+              Location : Indian Institute of technology Bhubaneswar <br />
               Near Argul - Jatni Rd, Kansapada, <br /> Odisha-752050
             </p>
             <br />

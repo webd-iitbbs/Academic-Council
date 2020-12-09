@@ -181,7 +181,7 @@ class Resources extends Component {
           <h2 className="subHeading">Other resources</h2>
           <div className="cards" style={{ margin: '20px' }}>
             <Card className="card" style={{ height: '300px' }}>
-              <Card.Img variant="top" src={skills} className="images1" />
+              <Card.Img variant="top" src={skills} style={{ height: '180px' }} className="images1" />
               <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
                   style={{
@@ -211,7 +211,7 @@ class Resources extends Component {
               <Card.Img
                 variant="top"
                 src={softwareResources}
-                className="images1"
+                className="images1" style={{ height: '180px' }}
               />
               <Card.Body style={{ padding: '10px' }}>
                 <Card.Title
